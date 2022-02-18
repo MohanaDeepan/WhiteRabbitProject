@@ -49,7 +49,7 @@ nav {
   top: -100vh;
   justify-content: center;
   align-items: center;
-  opacity: 1;
+  opacity: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
 }
