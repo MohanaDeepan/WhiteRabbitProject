@@ -29,7 +29,7 @@
 }
 
 nav {
-  width: 70vw;
+  width: 75vw;
   height: 10vh;
   margin: 0 auto;
   display: flex;
@@ -39,8 +39,9 @@ nav {
 }
 
 .logo-container {
+  width: 10%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
   padding-right: unset;
   align-items: center;
@@ -70,7 +71,6 @@ nav {
 .lists ul {
   list-style: none;
   display: flex;
-  padding: 0 100px 0 5px;
   font-size: 13px;
   font-weight: 100;
 }
@@ -90,9 +90,9 @@ nav {
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 1.5vw;
-  width: 30%;
+  width: 100%;
 }
 
 .button1 {
