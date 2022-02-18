@@ -1,0 +1,448 @@
+/* Tablets, iPads (portrait) ----------- */
+.wrapper {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  color: white;
+  display: flex;
+  overflow: hidden;
+}
+
+.BG1wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: flex;
+  flex-direction: column;
+}
+
+.BG1 {
+  background-image: url(/Backgrounds/BG1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+nav {
+  width: 60vw;
+  height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-right: unset;
+  align-items: center;
+}
+
+.logo-container a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 5px;
+}
+
+.logo-container img {
+  width: 15px;
+  height: auto;
+}
+
+.lists {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.lists ul {
+  list-style: none;
+  display: flex;
+  padding: 0 100px 0 5px;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.lists ul li a {
+  display: inline-block;
+  padding: 1.1vw;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.lists a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  width: 30%;
+}
+
+.button1 {
+  font-size: 13px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: 1px solid #2b83ea;
+  background: none;
+  color: white;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background: #2b83ea;
+  transition: 0.3s ease-in-out;
+}
+
+.button2 {
+  font-size: 13px;
+  display: flex;
+  padding: 10px 15px;
+  border: 2px solid #ededed;
+  border-radius: 2px;
+  background: #ededed;
+  color: #528ff0;
+  font-style: normal;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.button2:hover {
+  background: #ffffff;
+  border: 2px solid #528ff0;
+  transition: 0.3s ease-in-out;
+}
+
+.main-content {
+  width: 75%;
+  height: 70%;
+  margin: 8vh auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-holder {
+  width: 50%;
+  height: 100%;
+}
+
+.content-inside {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.content-inside h1 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.bar {
+  width: 20px;
+  height: 4px;
+  margin: 25px 0;
+  background: #58c19c;
+}
+
+.content-inside p {
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.content-inside button {
+  color: white;
+  background: #2783f3;
+  padding: 15px 20px;
+  margin: 25px 0;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 2px;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.content-inside button:hover {
+  background: #1f6ecf;
+}
+
+.image-holder {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: end;
+}
+
+.image-holder img {
+  width: 75%;
+  height: 75%;
+}
+
+.part2 {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+}
+
+.part2holder {
+  display: flex;
+  width: 80vw;
+  height: auto;
+  margin: 10vh auto;
+}
+
+.image-slide {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content {
+  width: 50%;
+  height: 100%;
+}
+
+.right-con {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.right-con h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 1vh 0;
+}
+
+.right-con p {
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.rating {
+  padding: 3vh 0;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.rating h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.right-con h4 {
+  letter-spacing: 0.1vw;
+  color: #939c9f;
+  font-size: 12px;
+}
+
+.tabs {
+  display: flex;
+  padding: 2vh 0;
+}
+
+.tabs img {
+  width: 80px;
+  height: auto;
+  border: 2px solid #d8e0e2;
+  border-radius: 6px;
+  margin: 0 0.2vw;
+}
+
+.tabs img:hover {
+  border: 2px solid #000000;
+  border-radius: 6px;
+}
+
+.quantity {
+  display: flex;
+}
+
+.hold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hold img {
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.hold img:hover {
+  border: 1px solid #616161;
+  border-radius: 4px;
+}
+
+.hold span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 48px;
+  font-size: 16px;
+}
+
+input {
+  accent-color: green;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.radio-field1 {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 0;
+}
+
+.radio-field1 span {
+  font-style: italic;
+  font-weight: bold;
+  background: #b1fbe3;
+  padding: 4px 10px;
+  border-radius: 18px;
+}
+
+.radio-field1 p {
+  font-size: 14px;
+  padding: 0 4px 0 20px;
+  white-space: nowrap;
+}
+
+.radio-con img {
+  width: 15px;
+  height: 15px;
+}
+
+.radio-con {
+  display: flex;
+  align-items: center;
+}
+
+.radio-field2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 0;
+}
+
+.radio-field2 span {
+  font-style: normal;
+  font-weight: bold;
+  color: #00ba74;
+  font-size: 14px;
+  border-radius: 18px;
+}
+
+.radio-field2 p {
+  font-size: 14px;
+  padding: 0 4px 0 20px;
+  white-space: unset;
+}
+
+.radio-con img {
+  width: 25px;
+  height: 25px;
+}
+
+.radio-con {
+  display: flex;
+}
+
+.addtobag {
+  padding: 2vh 0;
+}
+
+.addtobag button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1vh 0;
+  background: #00ba74;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addtobag button:hover {
+  background: #008a55;
+}
+
+.list-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont {
+  display: flex;
+  padding: 4px 0;
+  align-items: center;
+}
+
+.cont img {
+  width: 15px;
+  height: 15px;
+}
+
+.cont p {
+  font-size: 14px;
+  padding: 0 6px;
+}
+
+.deliver {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.deliver p {
+  font-size: 14px;
+  padding: 0 6px;
+  color: #545c5f;
+}
+
+.deliver p span {
+  color: #545c5f;
+  text-decoration: underline;
+  font-weight: bold;
+}

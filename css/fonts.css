@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("Fonts\HKGrotesk-Black.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("Fonts\HKGrotesk-BoldItalic.otf");
+  font-style: italic;
+  font-weight: bold;
+}
