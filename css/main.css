@@ -64,7 +64,7 @@ html {
 }
 
 .BG1 {
-  background-image: url(/Backgrounds/BG1.svg);
+  background: url("/Backgrounds/BG1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
