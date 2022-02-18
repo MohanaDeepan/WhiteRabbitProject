@@ -230,7 +230,7 @@ nav {
 }
 
 .main-content {
-  width: 100%;
+  width: 75%;
   height: 100%;
   margin: 8vh auto;
   display: flex;
@@ -277,7 +277,7 @@ nav {
 .content-inside button {
   color: white;
   background: #2783f3;
-  padding: 15px 20px;
+  padding: 10px 20px;
   margin: 25px 0;
   font-size: 12px;
   font-weight: bold;
@@ -440,15 +440,17 @@ label {
   background: #b1fbe3;
   padding: 4px 10px;
   border-radius: 18px;
+  align-items: center;
 }
 
 .radio-field1 p {
   font-size: 13px;
   padding: 0 4px 0 20px;
-  white-space: nowrap;
+  white-space: unset;
 }
 
-.radio-con img {
+.radio-con p img {
+  margin: -3px auto;
   width: 15px;
   height: 15px;
 }
