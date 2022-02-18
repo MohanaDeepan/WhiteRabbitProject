@@ -297,7 +297,7 @@ nav {
 }
 
 .right-con {
-  width: 90%;
+  width: 100%;
   height: 100%;
   margin: auto;
 }
@@ -405,12 +405,12 @@ label {
 .radio-field1 p {
   font-size: 16px;
   padding: 0 4px 0 20px;
-  white-space: nowrap;
+  white-space: normal;
 }
 
-.radio-con img {
-  width: 25px;
-  height: 25px;
+.radio-con p img {
+  width: 15px;
+  height: 15px;
 }
 
 .radio-con {
@@ -437,13 +437,15 @@ label {
   padding: 0 4px 0 20px;
 }
 
-.radio-con img {
+.radio-con p img {
+  margin: -3px auto;
   width: 25px;
   height: 25px;
 }
 
 .radio-con {
   display: flex;
+  align-items: center;
 }
 
 .addtobag {

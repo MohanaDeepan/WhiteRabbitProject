@@ -1,7 +1,7 @@
 /* Tablets, iPads (portrait) ----------- */
 .wrapper {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   color: white;
   display: flex;
