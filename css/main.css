@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "HKGrotesk";
-  src: url("/Fonts/HKGrotesk-Light.otf");
+  src: url("https://raw.githubusercontent.com/MohanaDeepan/WhiteRabbitProject/main/Fonts/HKGrotesk-Light.otf");
   font-style: normal;
   font-weight: 100;
 }
@@ -59,7 +59,6 @@ html {
   height: 100%;
   object-fit: fill;
   display: flex;
-
   flex-direction: column;
 }
 
