@@ -315,9 +315,9 @@ nav {
 .part2holder {
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: 80vw;
   height: auto;
-  margin: 5vh auto;
+  margin: 0 auto;
 }
 
 .image-slide {
