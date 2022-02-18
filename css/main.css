@@ -13,28 +13,28 @@
 
 @font-face {
   font-family: "HKGrotesk";
-  src: url("/Fonts/HKGrotesk-BoldItalic.otf");
+  src: url("https://raw.githubusercontent.com/MohanaDeepan/WhiteRabbitProject/main/Fonts/HKGrotesk-BoldItalic.otf");
   font-style: italic;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "HKGrotesk";
-  src: url("/Fonts/HKGrotesk-Bold.otf");
+  src: url("https://raw.githubusercontent.com/MohanaDeepan/WhiteRabbitProject/main/Fonts/HKGrotesk-Bold.otf");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "HKGrotesk";
-  src: url("/Fonts/HKGrotesk-ExtraBold.otf");
+  src: url("https://raw.githubusercontent.com/MohanaDeepan/WhiteRabbitProject/main/Fonts/HKGrotesk-ExtraBold.otf");
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
   font-family: "HKGrotesk";
-  src: url("/Fonts/HKGrotesk-Regular.otf");
+  src: url("https://raw.githubusercontent.com/MohanaDeepan/WhiteRabbitProject/main/Fonts/HKGrotesk-Regular.otf");
   font-style: normal;
 }
 
