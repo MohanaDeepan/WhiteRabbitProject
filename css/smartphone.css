@@ -19,7 +19,7 @@
 }
 
 .BG1 {
-  background-image: url(/Backgrounds/BG1.svg);
+  background-image: url("https://raw.githubusercontent.com/MohanaDeepan/WhiteRabbitProject/main/Backgrounds/BG1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
